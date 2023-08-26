@@ -1,0 +1,57 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.2",
+    "heartbeatAt": "2023-06-19T10:15:29.528543",
+    "startedAt": "2023-06-19T10:15:28.301079",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--img",
+        "320",
+        "--batch-size",
+        "8",
+        "--epochs",
+        "10",
+        "--data",
+        "custom_data.yaml",
+        "--weights",
+        "yolov5s.pt",
+        "--device",
+        "cpu",
+        "--cache",
+        "clear"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\HP\\Desktop\\ultralytics\\yolov5\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ultralytics/yolov5",
+        "commit": "5f11555e0796f9471185a16dc79860c236f656f8"
+    },
+    "email": "vlrdharshini2003@gmail.com",
+    "root": "C:/Users/HP/Desktop/ultralytics/yolov5",
+    "host": "LAPTOP-69KAI4CT",
+    "username": "HP",
+    "executable": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 1190.0,
+        "min": 0.0,
+        "max": 1190.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1190.0,
+            "min": 0.0,
+            "max": 1190.0
+        }
+    ],
+    "disk": {
+        "total": 840.9404258728027,
+        "used": 194.2013168334961
+    },
+    "memory": {
+        "total": 7.7869110107421875
+    }
+}

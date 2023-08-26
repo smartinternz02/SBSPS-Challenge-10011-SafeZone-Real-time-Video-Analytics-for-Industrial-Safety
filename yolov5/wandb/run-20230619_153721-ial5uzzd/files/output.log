@@ -1,0 +1,12 @@
+[34m[1mClearML: [39m[22mWARNING  ClearML is installed but not configured, skipping ClearML logging. See https://docs.ultralytics.com/yolov5/tutorials/clearml_logging_integration#readme
+Dataset not found , missing paths ['C:\\Users\\HP\\Desktop\\ultralytics\\cricket.v1i.yolov8\\valid\\images']
+Traceback (most recent call last):
+  File "C:\Users\HP\Desktop\ultralytics\yolov5\train.py", line 642, in <module>
+    main(opt)
+  File "C:\Users\HP\Desktop\ultralytics\yolov5\train.py", line 531, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "C:\Users\HP\Desktop\ultralytics\yolov5\train.py", line 112, in train
+    data_dict = data_dict or check_dataset(data)  # check if None
+  File "C:\Users\HP\Desktop\ultralytics\yolov5\utils\general.py", line 517, in check_dataset
+    raise Exception('Dataset not found ❌')
+Exception: Dataset not found ❌
